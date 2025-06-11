@@ -17,7 +17,7 @@ result = my_model(instruction)
 print('This is the command :'+result)
 choice = input("want to proceed(Y/N): ")
 if choice == "Y":
-	display = subprocess.run("date", shell=True, capture_output=True, text=True)
-	print("Your output is:", result.stdout.strip())
+	display = subprocess.run(instruction, shell=True, capture_output=True, text=True)
+	print("Your output is:", result.stdout)
 else :
 	print("No command is runned")
