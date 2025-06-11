@@ -12,3 +12,12 @@ def my_model(prompt):
             model="gemini-2.0-flash"
         )
         return output.choices[0].message.content
+instruction = input("enter your instruction: ")
+result = my_model(instruction)
+print('This is the command :'+result)
+choice = input("want to proceed(Y/N): ")
+if choice == "Y":
+	display = subprocess.run("date", shell=True, capture_output=True, text=True)
+	print("Your output is:", result.stdout.strip())
+else :
+	print("No command is runned")
