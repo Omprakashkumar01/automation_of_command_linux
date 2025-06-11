@@ -1,6 +1,6 @@
 from openai import OpenAI
 import subprocess
-gemini_api_key = "AIzaSyB9fHK2qUPekNQRd4jVZDUbxYWmK-xukqc"
+gemini_api_key = "************************************"
 model = OpenAI(api_key = gemini_api_key , base_url = "https://generativelanguage.googleapis.com/v1beta/openai/")
 def my_model(prompt):
         mymsg = [
