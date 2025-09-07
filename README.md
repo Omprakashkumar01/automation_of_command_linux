@@ -31,8 +31,4 @@ This project integrates Generative AI with Linux operations (GenAI + Ops). It al
 - Linux Shell  
 - Generative AI (API integration if applicable)  
 
-## Future Scope  
-- Add a dry-run mode to validate commands before execution.  
-- Implement logging and auditing for executed commands.  
-- Extend support for multi-step workflows (e.g., backup, compress, and upload logs).  
-- Integrate with chat platforms or CI/CD pipelines for real-time operations.  
+ 
