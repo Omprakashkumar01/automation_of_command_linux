@@ -29,6 +29,6 @@ This project integrates Generative AI with Linux operations (GenAI + Ops). It al
 ## Tech Stack  
 - Python  
 - Linux Shell  
-- Generative AI (API integration if applicable)  
+- Generative AI
 
  
